@@ -45,6 +45,6 @@
     "@types/node-telegram-bot-api": "^0.64.9",
     "@types/nodemailer": "^6.4.17",
     "tsconfig-paths": "^4.2.0",
-    "tsup": "^8.5.0",
+    "tsup": "^8.5.0"
   }
 }
