@@ -12,14 +12,15 @@
     "clean": true
   },
   "scripts": {
-    "build": "tsup",
-    "start": "node dist/server.js",
-    "dev": "tsx src/server.ts",
-    "prod": "pnpm run build && pnpm start",
-    "type-check": "tsc --noEmit",
-    "migrate-telegram-username": "tsx src/scripts/migrate-telegram-username.ts",
-    "check-products": "tsx src/scripts/check-products.ts",
-    "activate-products": "tsx src/scripts/activate-products.ts"
+  "build": "tsup",
+  "start": "node dist/server.js",
+  "dev": "tsx src/server.ts",
+  "prod": "pnpm run build && pnpm start",
+  "type-check": "tsc --noEmit",
+  "migrate-telegram-username": "tsx src/scripts/migrate-telegram-username.ts",
+  "check-products": "tsx src/scripts/check-products.ts",
+  "activate-products": "tsx src/scripts/activate-products.ts",
+  "start:cron": "tsx src/scripts/check-products.ts"
   },
   "keywords": [],
   "author": "",
